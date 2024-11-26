@@ -1,0 +1,74 @@
+body{
+    background-color: #4903fc;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:3em;
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    margin-top:2em;
+    margin-bottom:3em;
+    margin-left:1em;
+    margin-right: 1em;
+    font-size: large;
+}
+
+#btnSongA, #btnSongB{
+    margin:1em;
+    background-color: #0097A7;
+    color:antiquewhite
+}
+
+#btnBoth, #btnNeither{
+    margin:1em;
+    background-color: #BDBDBD;
+    color:black;
+}
+
+#btnPlay{
+    display:block;
+    justify-content: center;
+    margin:auto;
+    background-color: #0097A7;
+    color:antiquewhite;
+    width:fit-content;
+}
+
+#divButtons{
+    display:flex;
+    justify-content: center;
+    margin:2em;
+}
+
+#divRanking{
+    
+    justify-content: center;
+    margin:2em;
+    padding:1em;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+/*
+    body {
+    display: flex;
+    justify-content: center; // Centra horizontalmente 
+    align-items: center;     // Centra verticalmente 
+    height: 100vh;           // Asegura que ocupe toda la altura de la ventana 
+    margin: 0;               // Elimina márgenes por defecto 
+    }
+
+    h1 {
+    text-align: center; // Esto centra el texto dentro del h1 
+    }
+*/
